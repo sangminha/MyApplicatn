@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" tools:context=".MainActivity">
+    <Button android:id="@+id/rear_camera" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:text="Face Detector Rear Camera"/>
+    <Button android:id="@+id/front_camera" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:text="Face Detector Front Camera"/>
+    <Button android:id="@+id/gray_camera" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:text="Gray Camera"/>
+    <Button android:id="@+id/edge_detection_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:text="Edge Detection"/>
+</LinearLayout>
